@@ -23,7 +23,7 @@ public class HelloController {
         model.addAttribute("name","Jaewon");
         model.addAttribute("age","3");
         model.addAttribute("address","서울");
-        return "user";
+        return "home";
     }
 
     @GetMapping("hellomvc") // 주소 http://localhost:8080/hellomvc?name=ddd
